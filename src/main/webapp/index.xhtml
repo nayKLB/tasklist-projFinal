@@ -1,0 +1,37 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="WEB-INF/templates/template.xhtml">
+
+    <ui:define name="head-end">
+        <ui:param name="renderBreadCrumb" value="false"/>
+    </ui:define>
+
+    <ui:define name="title">
+        <p:growl autoUpdate="true" life="4000"/>
+
+        <h2 class="align-center">
+            Bem vindo ao Projeto TaskList!
+            <br/><br/>
+            Desenvolvido por: <i><a href="https://github.com/nayarakelly" target="_blank"
+                                                          style="text-transform: none;text-decoration: none"> Nayara Kelly </a></i>
+            <br/><br/><br/>
+        </h2>
+        
+        <h2 class="align-center">
+	        <small>Foi utilizado nesse projeto: </small>
+	            <br/>
+	            <small><p:link value="Primefaces" href="http://primefaces.org" target="_blank"/>, <p:link value="Bootstrap"
+	                                                                                                  href="http://getbootstrap.com/" target="_blank"/>,
+	                <p:link value="Admin LTE" href="https://almsaeedstudio.com/themes/AdminLTE/index2.html" target="_blank"/> com
+	                <p:link value="JSF" href="https://javaserverfaces.java.net/" target="_blank"/>,
+	                <p:link value="JPA" href="https://www.oracle.com/technetwork/java/javaee/tech/persistence-jsp-140049.html" target="_blank"/>, 
+	                <p:link value="Hibernate" href="https://hibernate.org/" target="_blank"/> e 
+	                <p:link value="MySQL" href="https://www.mysql.com/" target="_blank"/>.</small>
+	                
+        </h2>
+
+    </ui:define>
+
+
+</ui:composition>
